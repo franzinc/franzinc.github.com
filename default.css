@@ -39,7 +39,7 @@ li {
 #header {
   margin: 0px auto;
   padding: 1em 0.5em 0.25em 1em;
-  background-color: #d6e3ef;
+  background: #d6e3ef url(images/title.png) repeat-x scroll bottom left;
   width: 98%;
   font-size: 1.5em;
 }
