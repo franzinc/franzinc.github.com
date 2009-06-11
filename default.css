@@ -54,7 +54,10 @@ body {
   text-align: center;
 }
 
-#caption a, #caption a:hover, #caption a:link, #caption a:visited {
+#caption {
   text-align: center;
+}
+
+#caption a, #caption a:hover, #caption a:link, #caption a:visited {
   font-size: 0.6em;
 }
