@@ -53,3 +53,8 @@ li {
 body {
   text-align: center;
 }
+
+#caption {
+  text-align: center;
+  font-size: 0.6em;
+}
