@@ -2,6 +2,23 @@
   font-family: Georgia, Arial, sans-serif;
 }
 
+h1 {
+  font-size: 2em;
+  background-color:#d6e3ef;
+  padding-top:20px;
+  padding-bottom:10px;
+  padding-left:20px;
+}
+
+h2 {
+  COLOR: #000000;
+  FONT-FAMILY: Georgia, Arial, sans-serif;
+  FONT-SIZE: 130%;
+  FONT-WEIGHT: bold;
+  MARGIN-TOP: 20px;
+  MARGIN-BOTTOM: 1px;
+}
+
 a {
   color: #000000;
   font-size: 99%;
