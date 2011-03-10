@@ -5,9 +5,7 @@ else
 SITE = $(USER)
 endif
 
-all:	check_links
-
-check_links:
+check_links: FORCE
 	checklinks -l -r \
 		http://$(SITE).opensource.franz.com/ \
 		http://$(SITE).opensource.franz.com/aftpd \
@@ -21,3 +19,5 @@ check_links:
 		http://$(SITE).opensource.franz.com/uri \
 		http://$(SITE).opensource.franz.com/xmlutils \
 		http://$(SITE).opensource.franz.com/index.html
+
+FORCE:
