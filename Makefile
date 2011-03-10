@@ -7,7 +7,7 @@ endif
 
 check_links: FORCE
 	checklinks -l -r \
-		http://$(SITE).opensource.franz.com/ \
+		http://$(SITE).opensource.franz.com \
 		http://$(SITE).opensource.franz.com/aftpd \
 		http://$(SITE).opensource.franz.com/aserve \
 		http://$(SITE).opensource.franz.com/deflate \
